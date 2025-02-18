@@ -35,7 +35,7 @@ guessBtn.addEventListener("click", () => {
         userInputField < randomNumber
             ? higherLowerParagraph.innerText = "go higher"
             : higherLowerParagraph.innerText = "go lower";
-        liveHighscore = 0; //fix her, ved ikke om det overhoved er rigtigt
+        liveHighscore = 0;
     }
 
     if (userInputField === randomNumber) {
